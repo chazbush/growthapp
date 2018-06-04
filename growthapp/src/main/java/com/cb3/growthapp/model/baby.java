@@ -15,7 +15,7 @@ public class baby {
 	private String FirstName;
 	private String LastName;
 	private String MiddleInitial;
-	private String Weight;
+	private String Growth;
 	
 	
 	
@@ -44,10 +44,10 @@ public class baby {
 		MiddleInitial = middleInitial;
 	}
 	public String getWeight() {
-		return Weight;
+		return Growth;
 	}
-	public void setWeight(String weight) {
-		Weight = weight;
+	public void setWeight(String growth) {
+		Growth = growth;
 	}
 	
 	

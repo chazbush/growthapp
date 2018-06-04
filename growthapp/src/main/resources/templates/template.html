@@ -2,10 +2,18 @@
       xmlns:th="http://www.thymeleaf.org">
 
 <body>
+
+	<div th:fragment="header">
+		<div class="row"> 
+	 		<div class="col-md-8 text-left"><span>cb3 growth app</div>
+			<div class="col-md-4 text-right"><span th:text="'Hello, ' + ${name} + '!'" /></div>
+		</div>
+	</div>
+  
   
     <div th:fragment="footer">
-      &copy; cb3 2018
-    </div>
+		<p class="text-center small" th:text="'&copy cb3 2018'" />
+  	</div>
   
 </body>
   
