@@ -6,11 +6,11 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
-public class baby {
+public class Baby {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long ID;
+	private long Id;
 	
 	private String FirstName;
 	private String LastName;
@@ -19,11 +19,11 @@ public class baby {
 	
 	
 	
-	public long getID() {
-		return ID;
+	public long getId() {
+		return Id;
 	}
-	public void setID(long iD) {
-		ID = iD;
+	public void setID(long id) {
+		Id = id;
 	}
 	public String getFirstName() {
 		return FirstName;
